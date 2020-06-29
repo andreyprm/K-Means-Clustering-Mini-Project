@@ -29,4 +29,4 @@ for i in range(2,20):
     ```
  
 ### Clustering Graph
-![Cluster](https://github.com/andreyprm/K-Means-Clustering-Mini-Project/blob/master/cluster.png)
+<img src=https://github.com/andreyprm/K-Means-Clustering-Mini-Project/blob/master/cluster.png>
