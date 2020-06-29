@@ -26,7 +26,7 @@ for i in range(2,20):
                random_state=101)
     kmeans.fit(df_pca)
     silhouette[i] = silhouette_score(df_pca, kmeans.labels_, metric='euclidean')
-    ```
+ ```
  
 ### Clustering Graph
 <img src=https://github.com/andreyprm/K-Means-Clustering-Mini-Project/blob/master/cluster.png>
