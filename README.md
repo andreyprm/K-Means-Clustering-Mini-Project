@@ -29,4 +29,4 @@ for i in range(2,20):
     ```
  
 ### Clustering Graph
-![GitHub Logo](cluster.png)
+![GitHub Logo](/blob/master/cluster.png)
