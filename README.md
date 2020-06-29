@@ -3,7 +3,7 @@
 This is an unsupervised learning models mini-project using K-Means clustering with World Happiness Score data. 
 The goal is to show the workflow of unsupervised learning model specifically the K-Means clustering data.
 
-Modelling code 
+### Modelling code 
 ```
 from sklearn.cluster import 
 inertia = []
@@ -28,3 +28,5 @@ for i in range(2,20):
     silhouette[i] = silhouette_score(df_pca, kmeans.labels_, metric='euclidean')
     ```
  
+### Clustering Graph
+![GitHub Logo](/cluster.png)
