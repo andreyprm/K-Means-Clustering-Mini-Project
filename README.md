@@ -27,6 +27,7 @@ for i in range(2,20):
     kmeans.fit(df_pca)
     silhouette[i] = silhouette_score(df_pca, kmeans.labels_, metric='euclidean')
  ```
- 
+### Inertia and Silhouette Score
+<img src=https://github.com/andreyprm/K-Means-Clustering-Mini-Project/blob/master/inertia.png>
 ### Clustering Graph
 <img src=https://github.com/andreyprm/K-Means-Clustering-Mini-Project/blob/master/cluster.png>
