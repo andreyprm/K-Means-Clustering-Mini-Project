@@ -15,7 +15,9 @@ for i in range(2,20):
                random_state=101)
     kmeans.fit(df_pca)
     inertia.append(kmeans.inertia_)KMeans
-
+```
+### Silhouette Score
+```
 from sklearn.metrics import silhouette_score
 silhouette = {}
 for i in range(2,20):
